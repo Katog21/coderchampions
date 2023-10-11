@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  
+}
+body {
+  
+    background-color: rgb(7, 2, 65);
+   
+}
+p, h1,h2, h5, h6, h3 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: beige;
+    padding: 20px;
+    
+}
+/* .grid-container {
+    
+    display: grid;
+    height: 100vh;
+    gap: 3px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 3fr 1fr ;
+    grid-template-areas: 
+    "header header header"
+    "rei shinji asuka"
+    "rei shinji asuka"
+    "footer footer footer" 
+;
+
+} */
+/*CSS NAVAR*/
+/* .nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    color: aliceblue;
+      
+}
+
+ .nav img{
+    width: 200px;
+    margin-top: 20px;
+    
+} */
+
+/*:::: CSS HEADER::::: */
+.lista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500px;
+}
+.header {
+    
+    background-color: black;
+    background-image: url(../assets/bannerchmapios.webp);
+
+    background-size:cover;
+    
+}
+/* ::::CSS NOTICIA MAIN:::: */
+.noticias {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 5px;
+  
+    border-color: blanchedalmond;
+   background-color: rgb(8, 1, 39) */
+      background-color: rgb(8, 1, 39)
+}
+/* CSS FOOTER */
+.footer {
+    background-color: rgb(4, 7, 0);
+    background-image: url(../assets/360_F_436286115_Xw6aeK0u66VJSyy9gBTpZO6bXMHdQLio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.iconosfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   gap: 30px;
+ }
+/* :::::CSS HISTORIA::::: */
+.cabecera{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    object-fit:fill;
+}
+.row {
+ display: flex;
+ justify-content: baseline;
+}
+.galeria{
+    background-color: rgb(1, 15, 17);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.realogo {
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+.estadi{
+    display:flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.textogalera {
+    color: black;
+    font-weight: 500;
+
+}
+/*:::CSS CAMPEONES:::*/
+.carru {
+    display: flex;
+    justify-content: center;
+    /* width: 600px;
+    height: 430px; */
+
+}
+
+
+/*:::: CSS Media:::*/
+.multi {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+.titulo img {
+    display: flex;
+    width: 180px;
+    flex-direction: column;    
+}
+.pic img {
+    max-width: 100%;
+    padding: 5px;
+}
+
+.mvideo {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 5px;
+    gap: 2px;
+}
+
+
+/*CSS FANS*/
+
+.form {
+    display: flex;
+    justify-content: center;
+    width:500px;
+	padding:20px;
+	border-radius:10px;
+    border-color: azure;
+	margin:auto;
+	background-color:#530477;
+    color: rgb(250, 247, 247);
+    text-align: center;
+}
+.now {
+  color: #28A745;
+}
+.noww:hover {
+    color: white;
+	background-color: #28A745;
+    cursor: grab;
+}
+a:link{ 
+    font-weight:bold ;
+    color: darkslateblue;
+}
+
+/*Media Q*/
+a:hover { 
+    font-weight: bold;
+    padding:18px;
+    background-color: rgb(10, 10, 60);
+    color: azure;
+}
+
+img:hover {
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+   
+}
+.carru img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+ }
+
+.carru img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
