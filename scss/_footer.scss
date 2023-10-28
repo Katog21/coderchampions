@@ -1,0 +1,13 @@
+.footer {
+    background-color: rgb(4, 7, 0);
+    background-image: url(../assets/360_F_436286115_Xw6aeK0u66VJSyy9gBTpZO6bXMHdQLio.jpg);
+    background-repeat: no-repeat;
+    background-size: $background-size;
+}
+.iconosfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: $align-items;
+    align-items: $align-items;
+    gap: 30px;
+ }
