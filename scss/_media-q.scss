@@ -1,8 +1,8 @@
 a:hover { 
-    font-weight: bold;
+    font-weight: $font-weight;
     padding:18px;
-    background-color: $backgroundcolor;
-    color: rgb(255, 240, 246);
+    background-color:map-get($colores , color-texto );
+    color:$colore;
 }
 
 img:hover {
