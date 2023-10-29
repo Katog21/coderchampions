@@ -15,7 +15,6 @@
 .galeria{
   @include flex-center-center-row-center-cover();
     }
-
 .cabecera {
-    @include flex-center();
+    @include flex-center-center-row-center-cover();
 }
