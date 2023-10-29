@@ -1,0 +1,21 @@
+@mixin flex-center-center-row-center-cover {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    object-fit: cover;
+    flex-wrap: wrap;
+}
+
+
+.lista {
+    @include flex-center-center-row-center-cover(); 
+}
+.galeria{
+  @include flex-center-center-row-center-cover();
+    }
+
+.cabecera {
+    @include flex-center();
+}

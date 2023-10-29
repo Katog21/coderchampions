@@ -1,3 +1,33 @@
+.lista {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  object-fit: cover;
+  flex-wrap: wrap;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  object-fit: cover;
+  flex-wrap: wrap;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  object-fit: cover;
+  flex-wrap: wrap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,16 +43,8 @@ body {
 p, h1, h2, h5, h6, h3 {
   text-align: center;
   font-family: "Oswald", sans-serif;
-  color: beige;
+  color: rgb(250, 247, 247);
   padding: 20px;
-}
-
-.lista {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
-  font-weight: 500px;
 }
 
 .header {
@@ -50,11 +72,13 @@ p, h1, h2, h5, h6, h3 {
   gap: 30px;
 }
 
+/*:::CSS CAMPEONES:::*/
 .carru {
   display: flex;
   justify-content: center;
 }
 
+/*CSS FANS*/
 .form {
   display: flex;
   justify-content: center;
@@ -69,12 +93,11 @@ p, h1, h2, h5, h6, h3 {
 }
 
 .now {
-  color: #28A745;
+  color: rgb(7, 2, 65);
 }
-
-.noww:hover {
-  color: white;
-  background-color: #28A745;
+.now:hover {
+  color: rgb(250, 247, 247);
+  background-color: rgb(7, 2, 65);
   cursor: grab;
 }
 
@@ -86,7 +109,7 @@ a:link {
 a:hover {
   font-weight: bold;
   padding: 18px;
-  background-color: rgb(10, 10, 60);
+  background-color: rgb(7, 2, 65);
   color: azure;
 }
 
@@ -112,25 +135,15 @@ img:hover {
   filter: contrast(120%);
 }
 
+/* :::::CSS HISTORIA::::: */
 .cabecera {
-  display: flex;
   height: 100vh;
-  justify-content: center;
   object-fit: fill;
 }
 
 .row {
   display: flex;
   justify-content: baseline;
-}
-
-.galeria {
-  background-color: rgb(1, 15, 17);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  object-fit: cover;
 }
 
 .realogo {
@@ -152,6 +165,7 @@ img:hover {
   font-weight: 500;
 }
 
+/*:::: CSS Media:::*/
 .multi {
   display: flex;
   justify-content: center;

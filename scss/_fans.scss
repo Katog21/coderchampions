@@ -1,6 +1,9 @@
+
+/*CSS FANS*/
+
 .form {
-    display: flex;
-    justify-content: center;
+    display: map-get($estilos,display);
+    justify-content: map-get($estilos, justify-content );
     width:500px;
 	padding:20px;
 	border-radius:10px;
@@ -8,7 +11,7 @@
 	margin:auto;
 	background-color:#530477;
     color: $colore;
-    text-align: center;
+    text-align: map-get($estilos, text-align);
 }
 .now {
   color: $backgroundcolor;
@@ -20,6 +23,6 @@
 }
 }
 a:link{ 
-    font-weight:bold ;
+    font-weight:bold;
     color: darkslateblue;
 }
