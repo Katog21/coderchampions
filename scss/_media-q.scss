@@ -1,8 +1,8 @@
 a:hover { 
-    font-weight: $font-weight;
+    font-weight: bold;
     padding:18px;
-    background-color:map-get($colores , color-texto );
-    color:$colore;
+    background-color:map-get($colores , fuente-texto );
+    color: azure;
 }
 
 img:hover {

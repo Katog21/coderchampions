@@ -2,7 +2,7 @@
 /*CSS FANS*/
 .form {
     display: map-get($estilos,display);
-    justify-content: map-get($estilos, justify-content );
+    justify-content: map-get($estilos, justify-content);
     width:500px;
 	padding:20px;
 	border-radius:10px;
@@ -20,6 +20,7 @@
 	background-color: $backgroundcolor;
     cursor: grab;
 }
+
 }
 a:link{ 
     font-weight:bold;

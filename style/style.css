@@ -42,8 +42,8 @@ body {
 
 p, h1, h2, h5, h6, h3 {
   text-align: center;
-  font-family: "Oswald", sans-serif;
-  color: rgba(216, 14, 199, 0.185);
+  font-family: sans-serif;
+  color: rgb(252, 252, 252);
   padding: 20px;
 }
 
@@ -88,7 +88,7 @@ p, h1, h2, h5, h6, h3 {
   border-color: azure;
   margin: auto;
   background-color: #530477;
-  color: rgba(216, 14, 199, 0.185);
+  color: rgb(252, 252, 252);
   text-align: center;
 }
 
@@ -96,7 +96,7 @@ p, h1, h2, h5, h6, h3 {
   color: rgb(7, 2, 65);
 }
 .now:hover {
-  color: rgba(216, 14, 199, 0.185);
+  color: rgb(252, 252, 252);
   background-color: rgb(7, 2, 65);
   cursor: grab;
 }
@@ -109,8 +109,8 @@ a:link {
 a:hover {
   font-weight: bold;
   padding: 18px;
-  background-color: beige;
-  color: rgba(216, 14, 199, 0.185);
+  background-color: sans-serif;
+  color: azure;
 }
 
 img:hover {
