@@ -1,17 +1,189 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 7 | @import "noticia-main";
- *   |         ^^^^^^^^^^^^^^
- *   '
- *   scss\style.scss 7:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 7 \2502  @import \"noticia-main\";\d\a   \2502          ^^^^^^^^^^^^^^\a   \2575 \a   scss\\style.scss 7:9  root stylesheet";
+.lista {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  object-fit: cover;
+  flex-wrap: wrap;
 }
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  object-fit: cover;
+  flex-wrap: wrap;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  object-fit: cover;
+  flex-wrap: wrap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(7, 2, 65);
+}
+
+p, h1, h2, h5, h6, h3 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  padding: 20px;
+}
+
+.header {
+  background-color: rgb(7, 2, 65);
+  background-image: url(../assets/bannerchmapios.webp);
+  background-size: cover;
+}
+
+.noticias {
+  background-color: rgb(7, 2, 65);
+}
+
+.footer {
+  background-color: rgb(4, 7, 0);
+  background-image: url(../assets/360_F_436286115_Xw6aeK0u66VJSyy9gBTpZO6bXMHdQLio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.iconosfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+/*:::CSS CAMPEONES:::*/
+.carru {
+  display: flex;
+  justify-content: center;
+}
+
+/*CSS FANS*/
+.form {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  border-color: azure;
+  margin: auto;
+  background-color: #530477;
+  color: white;
+  text-align: center;
+}
+
+.now {
+  color: rgb(7, 2, 65);
+}
+.now:hover {
+  color: white;
+  background-color: rgb(7, 2, 65);
+  cursor: grab;
+}
+
+a:link {
+  font-weight: bold;
+  color: darkslateblue;
+}
+
+a:hover {
+  font-weight: bold;
+  padding: 18px;
+  background-color: rgb(7, 2, 65);
+  color: rgb(255, 240, 246);
+}
+
+img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.carru img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+
+.carru img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+/* :::::CSS HISTORIA::::: */
+.row {
+  display: flex;
+  justify-content: baseline;
+}
+
+.realogo {
+  width: 130px;
+  justify-content: center;
+  align-items: center;
+}
+
+.estadi {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.textogalera {
+  color: black;
+  font-weight: 500;
+}
+
+/*:::: CSS Media:::*/
+.multi {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.titulo img {
+  display: flex;
+  width: 180px;
+  flex-direction: column;
+}
+
+.pic img {
+  max-width: 100%;
+  padding: 5px;
+}
+
+.mvideo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  gap: 2px;
+}
+
+/*# sourceMappingURL=style.css.map */
