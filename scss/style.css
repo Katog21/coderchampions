@@ -149,6 +149,17 @@ img:hover {
   align-items: center;
 }
 
+.estadi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.estadi {
+  width: 50%;
+}
+
 .textogalera {
   color: black;
   font-weight: 500;

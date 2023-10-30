@@ -1,8 +1,8 @@
 $estilos: (
     display: flex,
     flex-direction: row,
-    justify-content: center,
-    text-align: center, 
+    justify-content: $align-items,
+    text-align: $text-align, 
     border-color: azure,
 ); 
 

@@ -9,17 +9,20 @@
 
 .realogo {
     width: 130px;
-    justify-content: center;
-    align-items: center;
+    justify-content: $align-items;
+    align-items: $text-align;
 }
 
-// .estadi{
-//     display:flex;
-//     flex-wrap: wrap;
-//     width: 50%;
-//     justify-content: center;
-//     align-items: center;
-// }
+.estadi{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: $align-items;
+    align-items: $text-align;
+}
+
+.estadi{ 
+    @extend .estadi; width: 50%;
+}
 .textogalera {
     color: black;
     font-weight: 500;
