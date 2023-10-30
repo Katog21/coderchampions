@@ -1,13 +1,11 @@
-// .estadi{
-//     display:flex;
-//     flex-wrap: wrap;
-//     width: 50%;
-//     justify-content: center;
-//     align-items: center;
-// }
+.estadi{
+    display:flex;
+    flex-wrap: wrap;
+  
+    justify-content: center;
+    align-items: center;
+}
 
-// @extend .estadi {
-
-
-// width: 50%;
-// }
+.estadi{ 
+    @extend .estadi; width: 50%;
+}
